@@ -9,7 +9,7 @@ public class JavaPrimalityTest {
         String n = input.next();
 
         BigInteger bigInteger = new BigInteger(n);
-        System.out.println(bigInteger.isProbablePrime(10) ? "prime" : "not prime");
+        System.out.println(bigInteger.isProbablePrime(10) ? "prime" : "not prime"); // any number as certainty will work
 
     }
 }

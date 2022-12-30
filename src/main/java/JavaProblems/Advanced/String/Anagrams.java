@@ -1,4 +1,4 @@
-package JavaProblems.String;
+package JavaProblems.Advanced.String;
 
 public class Anagrams {
     public static void main(String[] args) {

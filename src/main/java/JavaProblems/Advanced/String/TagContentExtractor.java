@@ -1,4 +1,4 @@
-package JavaProblems.String;
+package JavaProblems.Advanced.String;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;
@@ -30,22 +30,23 @@ public class TagContentExtractor {
         // optimal Solution for Hacker rank
         Scanner in = new Scanner(System.in);
         int testCases = Integer.parseInt(in.nextLine());
-        while (testCases-- > 0) {
+        while (testCases > 0) {
             String line = in.nextLine();
 
             String tag = "<(.+)>([\\w]+[^<]*)</(\\1)>";
-            Pattern p = Pattern.compile(tag);
-            Matcher m = p.matcher(line);
+            Pattern pattern = Pattern.compile(tag);
+            Matcher matcher = pattern.matcher(line);
 
-            if (!m.find()) {
+            if (matcher.find() == true) {
+                matcher.reset();
+                while (matcher.find()) {
+                    System.out.println(matcher.group(2));
+                }
+            } else {
                 System.out.println("None");
-                continue;
             }
+            testCases--;
 
-            m.reset();
-            while (m.find()) {
-                System.out.println(m.group(2));
-            }
         }
     }
 }

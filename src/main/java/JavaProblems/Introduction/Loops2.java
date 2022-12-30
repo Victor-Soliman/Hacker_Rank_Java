@@ -1,4 +1,4 @@
-package JavaProblems;
+package JavaProblems.Introduction;
 
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ public class Loops2 {
 
             for (int i = 0; i < n; i++) {
                 a = (int) (a + Math.pow(2, i) * b);
-                System.out.println(a + " ");
+                System.out.print(a + " ");
             }
             System.out.println("");
         }

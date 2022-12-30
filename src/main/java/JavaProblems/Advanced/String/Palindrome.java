@@ -1,9 +1,10 @@
-package JavaProblems.String;
+package JavaProblems.Advanced.String;
 
 import java.util.Scanner;
 
 public class Palindrome {
     public static void main(String[] args) {
+        //  first solution hacker rank
         Scanner input = new Scanner(System.in);
         String a = input.next();
 
@@ -22,5 +23,20 @@ public class Palindrome {
         } else {
             System.out.println("No");
         }
+
+        // second solution hacker rank
+//        Scanner sc=new Scanner(System.in);
+//        String A=sc.next();
+//        sc.close();
+//
+//        StringBuilder input1 = new StringBuilder();
+//        input1.append(A);
+//
+//
+//        if ((input1.reverse().toString()).equals(A)){
+//            System.out.println("Yes");
+//        }else{
+//            System.out.println("No");
+//        }
     }
 }

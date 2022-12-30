@@ -2,8 +2,11 @@ package JavaProblems.BigDecimal;
 
 import java.math.BigDecimal;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.Scanner;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class JavaBigDecimal {
     public static void main(String[] args) {
@@ -42,6 +45,23 @@ public class JavaBigDecimal {
         for (int i = 0; i < n; i++) {
             System.out.println(s[i]);
         }
+
+        // third solution : hacker rank
+//        Comparator<String> stringComparator = new Comparator<String>() {
+//
+//            public int compare(String o1, String o2) {
+//                BigDecimal a = new BigDecimal(o1);
+//                BigDecimal b = new BigDecimal(o2);
+//                return b.compareTo(a);
+//            }
+//        };
+//        Arrays.sort(s, 0, n, stringComparator);
+//        //Output
+//        for(int i=0;i<n;i++)
+//        {
+//            System.out.println(s[i]);
+//        }
+//    }
 
     }
 }

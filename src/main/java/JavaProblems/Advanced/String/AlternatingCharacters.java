@@ -1,4 +1,4 @@
-package JavaProblems.String;
+package JavaProblems.Advanced.String;
 
 public class AlternatingCharacters {
     public static void main(String[] args) {

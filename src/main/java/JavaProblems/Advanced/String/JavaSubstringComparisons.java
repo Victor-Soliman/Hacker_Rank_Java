@@ -1,4 +1,4 @@
-package JavaProblems.String;
+package JavaProblems.Advanced.String;
 
 import java.util.Scanner;
 
@@ -18,24 +18,21 @@ public class JavaSubstringComparisons {
 //        System.out.println(lexicographicalList.get(0) + " " + lexicographicalList.get(lexicographicalList.size()-1));
 
 
-        // second solution
-        String smallest = s.substring(0, k);
-        String largest = s.substring(0, k);
+        // second solution hacker rank
+        String current_subString = s.substring(0, k);
+        String smallest = current_subString;
+        String largest = current_subString;
 
         for (int i = 1; i <= s.length() - k; i++) {
-            String temp = s.substring(i, i + k);
-            if (temp.compareTo(smallest) < 0) {
-//                System.out.println("Smallest: " + temp.compareTo(smallest));
-                smallest = temp;
-//                System.out.println("* " + smallest);
-            } else if (temp.compareTo(largest) > 0) {
-//                System.out.println("largest: " + temp.compareTo(largest));
-                largest = temp;
-//                System.out.println("# " + largest);
+            current_subString = s.substring(i, i + k);
+            if (current_subString.compareTo(smallest) < 0) {
+                smallest = current_subString;
+            } else if (current_subString.compareTo(largest) > 0) {
+                largest = current_subString;
             }
         }
 
-//        System.out.println(smallest + "\n" + largest);
+        System.out.println(smallest + "\n" + largest);
 
 
     }

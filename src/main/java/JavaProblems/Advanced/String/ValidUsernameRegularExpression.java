@@ -1,4 +1,4 @@
-package JavaProblems.String;
+package JavaProblems.Advanced.String;
 
 import java.util.Scanner;
 
@@ -21,10 +21,8 @@ public class ValidUsernameRegularExpression {
     }
 
     class UsernameValidator {
-        /*
-         * Write regular expression here.
-         */
-        public static final String regularExpression = "^[A-Za-z][A-Za-z0-9_]{7,29}$";
+       public static final String regularExpression = "^[A-Za-z][A-Za-z0-9_]{7,29}$";  // minim 8 si maxim 30 inclusive
+        // \\p{Alpha}(\\w|_){7,29}  : valid for hacker rank
     }
 }
 
