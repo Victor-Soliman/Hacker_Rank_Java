@@ -1,8 +1,7 @@
-package JavaProblems.Algorithms.SimpleArraySum;
+package JavaProblems.Algorithms.WarmUp.SimpleArraySum;
 
 import java.io.*;
 import java.util.List;
-import java.util.Scanner;
 import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;

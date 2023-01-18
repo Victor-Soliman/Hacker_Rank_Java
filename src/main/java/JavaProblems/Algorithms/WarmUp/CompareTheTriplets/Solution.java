@@ -1,4 +1,4 @@
-package JavaProblems.Algorithms.CompareTheTriplets;
+package JavaProblems.Algorithms.WarmUp.CompareTheTriplets;
 
 import java.io.*;
 import java.util.ArrayList;

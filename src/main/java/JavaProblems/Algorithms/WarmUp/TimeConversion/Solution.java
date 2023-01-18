@@ -1,4 +1,4 @@
-package JavaProblems.Algorithms.TimeConversion;
+package JavaProblems.Algorithms.WarmUp.TimeConversion;
 
 import java.io.*;
 

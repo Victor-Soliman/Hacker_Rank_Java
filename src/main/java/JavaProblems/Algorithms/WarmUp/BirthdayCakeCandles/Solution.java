@@ -1,7 +1,6 @@
-package JavaProblems.Algorithms.BirthdayCakeCandles;
+package JavaProblems.Algorithms.WarmUp.BirthdayCakeCandles;
 
 import java.io.*;
-import java.util.Collections;
 import java.util.List;
 import java.util.stream.Stream;
 

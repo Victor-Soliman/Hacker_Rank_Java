@@ -1,4 +1,4 @@
-package JavaProblems.Algorithms.DiagonalDifference;
+package JavaProblems.Algorithms.WarmUp.DiagonalDifference;
 
 import java.io.*;
 import java.util.ArrayList;

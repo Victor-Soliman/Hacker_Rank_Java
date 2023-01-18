@@ -1,4 +1,4 @@
-package JavaProblems.Algorithms.MiniMaxSum;
+package JavaProblems.Algorithms.WarmUp.MiniMaxSum;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package JavaProblems.Algorithms.Staircase;
+package JavaProblems.Algorithms.WarmUp.Staircase;
 
 import java.io.BufferedReader;
 import java.io.IOException;
