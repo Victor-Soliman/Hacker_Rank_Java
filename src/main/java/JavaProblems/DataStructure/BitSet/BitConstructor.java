@@ -8,7 +8,7 @@ public class BitConstructor {
         // BitSet is an array with 0 based
         // the bit value can be accessed by positive value only
         // the default value of the bit is boolean
-        // cleat method on bitset clear the array and make has the value of False
+        // clear method on bitset clear the array and make has the value of False
         BitSet bs1 = new BitSet();
         BitSet bs2 = new BitSet(6);
 
@@ -23,6 +23,7 @@ public class BitConstructor {
         bs2.set(1);
         bs2.set(2);
         bs2.set(3);
+        bs2.set(8);
 
         System.out.println("bs1 = " + bs1);
         System.out.println("bs2 = " + bs2);

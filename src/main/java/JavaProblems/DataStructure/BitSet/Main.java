@@ -38,5 +38,6 @@ public class Main {
         System.out.println("\n bits2 XOR bits1:");
         System.out.println(bits2);
 
+
     }
 }
